@@ -1,0 +1,25 @@
+{
+    "name": "creditdatamw/cakephp-utils",
+    "description": "CakePHP Utilities",
+    "type": "library",
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "Brian Msyamboza",
+            "email": "it@creditdatamw.com"
+        },
+        {
+            "name": "Zikani Nyirenda Mwase",
+            "email": "zikani@creditdatamw.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CreditData\\Cake\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "cakephp/cakephp": "~3.6.0"
+    }
+}
